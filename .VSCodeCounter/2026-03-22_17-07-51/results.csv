@@ -1,0 +1,54 @@
+"filename", "language", "Markdown", "Python", "JSON", "Shell Script", "pip requirements", "JavaScript", "JavaScript JSX", "PostCSS", "HTML", "comment", "blank", "total"
+"d:\nyaymargadarshak\README.md", "Markdown", 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 81, 336
+"d:\nyaymargadarshak\backend\controllers\authController.js", "JavaScript", 0, 0, 0, 0, 0, 38, 0, 0, 0, 0, 13, 51
+"d:\nyaymargadarshak\backend\controllers\chatController.js", "JavaScript", 0, 0, 0, 0, 0, 124, 0, 0, 0, 23, 24, 171
+"d:\nyaymargadarshak\backend\controllers\contactController.js", "JavaScript", 0, 0, 0, 0, 0, 60, 0, 0, 0, 8, 11, 79
+"d:\nyaymargadarshak\backend\controllers\lawyerController.js", "JavaScript", 0, 0, 0, 0, 0, 141, 0, 0, 0, 0, 31, 172
+"d:\nyaymargadarshak\backend\controllers\legalController.js", "JavaScript", 0, 0, 0, 0, 0, 45, 0, 0, 0, 0, 11, 56
+"d:\nyaymargadarshak\backend\middleware\auth.js", "JavaScript", 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 5, 25
+"d:\nyaymargadarshak\backend\models\db.js", "JavaScript", 0, 0, 0, 0, 0, 101, 0, 0, 0, 0, 7, 108
+"d:\nyaymargadarshak\backend\package-lock.json", "JSON", 0, 0, 1815, 0, 0, 0, 0, 0, 0, 0, 1, 1816
+"d:\nyaymargadarshak\backend\package.json", "JSON", 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 1, 23
+"d:\nyaymargadarshak\backend\routes\auth.js", "JavaScript", 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 3, 11
+"d:\nyaymargadarshak\backend\routes\chat.js", "JavaScript", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 3, 14
+"d:\nyaymargadarshak\backend\routes\contacts.js", "JavaScript", 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 3, 10
+"d:\nyaymargadarshak\backend\routes\lawyers.js", "JavaScript", 0, 0, 0, 0, 0, 12, 0, 0, 0, 0, 3, 15
+"d:\nyaymargadarshak\backend\routes\legal.js", "JavaScript", 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 3, 13
+"d:\nyaymargadarshak\backend\scripts\initDb.js", "JavaScript", 0, 0, 0, 0, 0, 135, 0, 0, 0, 5, 11, 151
+"d:\nyaymargadarshak\backend\scripts\migrate_chat.js", "JavaScript", 0, 0, 0, 0, 0, 85, 0, 0, 0, 29, 16, 130
+"d:\nyaymargadarshak\backend\server.js", "JavaScript", 0, 0, 0, 0, 0, 46, 0, 0, 0, 8, 13, 67
+"d:\nyaymargadarshak\backend\services\emailService.js", "JavaScript", 0, 0, 0, 0, 0, 65, 0, 0, 0, 3, 13, 81
+"d:\nyaymargadarshak\backend\services\scraperService.js", "JavaScript", 0, 0, 0, 0, 0, 143, 0, 0, 0, 5, 64, 212
+"d:\nyaymargadarshak\frontend\index.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 0, 17, 0, 1, 18
+"d:\nyaymargadarshak\frontend\package-lock.json", "JSON", 0, 0, 2999, 0, 0, 0, 0, 0, 0, 0, 1, 3000
+"d:\nyaymargadarshak\frontend\package.json", "JSON", 0, 0, 27, 0, 0, 0, 0, 0, 0, 0, 1, 28
+"d:\nyaymargadarshak\frontend\postcss.config.js", "JavaScript", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"d:\nyaymargadarshak\frontend\src\App.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 51, 0, 0, 1, 4, 56
+"d:\nyaymargadarshak\frontend\src\components\common\Footer.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 53, 0, 0, 0, 5, 58
+"d:\nyaymargadarshak\frontend\src\components\common\Navbar.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 116, 0, 0, 5, 14, 135
+"d:\nyaymargadarshak\frontend\src\components\common\UI.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 75, 0, 0, 0, 10, 85
+"d:\nyaymargadarshak\frontend\src\hooks\useAuth.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 37, 0, 0, 0, 8, 45
+"d:\nyaymargadarshak\frontend\src\index.css", "PostCSS", 0, 0, 0, 0, 0, 0, 0, 66, 0, 1, 15, 82
+"d:\nyaymargadarshak\frontend\src\main.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 2, 11
+"d:\nyaymargadarshak\frontend\src\pages\ArticlesPage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 97, 0, 0, 2, 10, 109
+"d:\nyaymargadarshak\frontend\src\pages\ChatPage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 160, 0, 0, 5, 15, 180
+"d:\nyaymargadarshak\frontend\src\pages\ClientDashboard.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 201, 0, 0, 3, 15, 219
+"d:\nyaymargadarshak\frontend\src\pages\HomePage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 231, 0, 0, 9, 21, 261
+"d:\nyaymargadarshak\frontend\src\pages\LawExplorerPage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 160, 0, 0, 3, 14, 177
+"d:\nyaymargadarshak\frontend\src\pages\LawyerDashboard.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 382, 0, 0, 7, 26, 415
+"d:\nyaymargadarshak\frontend\src\pages\LawyerDirectoryPage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 138, 0, 0, 5, 16, 159
+"d:\nyaymargadarshak\frontend\src\pages\LawyerProfilePage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 141, 0, 0, 4, 17, 162
+"d:\nyaymargadarshak\frontend\src\pages\LegalUpdatesPage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 156, 0, 0, 3, 19, 178
+"d:\nyaymargadarshak\frontend\src\pages\LoginPage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 68, 0, 0, 1, 8, 77
+"d:\nyaymargadarshak\frontend\src\pages\NotFoundPage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 18, 0, 0, 0, 2, 20
+"d:\nyaymargadarshak\frontend\src\pages\RegisterPage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 87, 0, 0, 1, 8, 96
+"d:\nyaymargadarshak\frontend\src\utils\api.js", "JavaScript", 0, 0, 0, 0, 0, 19, 0, 0, 0, 0, 5, 24
+"d:\nyaymargadarshak\frontend\tailwind.config.js", "JavaScript", 0, 0, 0, 0, 0, 29, 0, 0, 0, 1, 1, 31
+"d:\nyaymargadarshak\frontend\vite.config.js", "JavaScript", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 2, 13
+"d:\nyaymargadarshak\package.json", "JSON", 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 1, 18
+"d:\nyaymargadarshak\scraper\requirements.txt", "pip requirements", 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 1, 5
+"d:\nyaymargadarshak\scraper\scheduler.py", "Python", 0, 18, 0, 0, 0, 0, 0, 0, 0, 5, 7, 30
+"d:\nyaymargadarshak\scraper\scraper.py", "Python", 0, 116, 0, 0, 0, 0, 0, 0, 0, 9, 34, 159
+"d:\nyaymargadarshak\scraper\sources.py", "Python", 0, 33, 0, 0, 0, 0, 0, 0, 0, 3, 4, 40
+"d:\nyaymargadarshak\setup.sh", "Shell Script", 0, 0, 0, 52, 0, 0, 0, 0, 0, 8, 11, 71
+"Total", "-", 255, 167, 4880, 52, 4, 1113, 2180, 66, 17, 157, 616, 9507

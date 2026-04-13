@@ -1,0 +1,103 @@
+Date : 2026-03-22 17:07:51
+Directory : d:\nyaymargadarshak
+Total : 52 files,  8734 codes, 157 comments, 616 blanks, all 9507 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| JSON             |          5 |      4,880 |          0 |          5 |      4,885 |
+| JavaScript JSX   |         18 |      2,180 |         49 |        214 |      2,443 |
+| JavaScript       |         21 |      1,113 |         82 |        243 |      1,438 |
+| Markdown         |          1 |        255 |          0 |         81 |        336 |
+| Python           |          3 |        167 |         17 |         45 |        229 |
+| PostCSS          |          1 |         66 |          1 |         15 |         82 |
+| Shell Script     |          1 |         52 |          8 |         11 |         71 |
+| HTML             |          1 |         17 |          0 |          1 |         18 |
+| pip requirements |          1 |          4 |          0 |          1 |          5 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                           | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                              |         52 |      8,734 |        157 |        616 |      9,507 |
+| . (Files)                                                      |          3 |        324 |          8 |         93 |        425 |
+| backend                                                        |         19 |      2,888 |         81 |        236 |      3,205 |
+| backend (Files)                                                |          3 |      1,883 |          8 |         15 |      1,906 |
+| backend\controllers                                            |          5 |        408 |         31 |         90 |        529 |
+| backend\middleware                                             |          1 |         20 |          0 |          5 |         25 |
+| backend\models                                                 |          1 |        101 |          0 |          7 |        108 |
+| backend\routes                                                 |          5 |         48 |          0 |         15 |         63 |
+| backend\scripts                                                |          2 |        220 |         34 |         27 |        281 |
+| backend\services                                               |          2 |        208 |          8 |         77 |        293 |
+| frontend                                                       |         26 |      5,351 |         51 |        241 |      5,643 |
+| frontend (Files)                                               |          6 |      3,086 |          1 |          7 |      3,094 |
+| frontend\src                                                   |         20 |      2,265 |         50 |        234 |      2,549 |
+| frontend\src (Files)                                           |          3 |        126 |          2 |         21 |        149 |
+| frontend\src\components                                        |          3 |        244 |          5 |         29 |        278 |
+| frontend\src\components\common                                 |          3 |        244 |          5 |         29 |        278 |
+| frontend\src\hooks                                             |          1 |         37 |          0 |          8 |         45 |
+| frontend\src\pages                                             |         12 |      1,839 |         43 |        171 |      2,053 |
+| frontend\src\utils                                             |          1 |         19 |          0 |          5 |         24 |
+| scraper                                                        |          4 |        171 |         17 |         46 |        234 |
++----------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                       | language         | code       | comment    | blank      | total      |
++----------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| d:\nyaymargadarshak\README.md                                  | Markdown         |        255 |          0 |         81 |        336 |
+| d:\nyaymargadarshak\backend\controllers\authController.js      | JavaScript       |         38 |          0 |         13 |         51 |
+| d:\nyaymargadarshak\backend\controllers\chatController.js      | JavaScript       |        124 |         23 |         24 |        171 |
+| d:\nyaymargadarshak\backend\controllers\contactController.js   | JavaScript       |         60 |          8 |         11 |         79 |
+| d:\nyaymargadarshak\backend\controllers\lawyerController.js    | JavaScript       |        141 |          0 |         31 |        172 |
+| d:\nyaymargadarshak\backend\controllers\legalController.js     | JavaScript       |         45 |          0 |         11 |         56 |
+| d:\nyaymargadarshak\backend\middleware\auth.js                 | JavaScript       |         20 |          0 |          5 |         25 |
+| d:\nyaymargadarshak\backend\models\db.js                       | JavaScript       |        101 |          0 |          7 |        108 |
+| d:\nyaymargadarshak\backend\package-lock.json                  | JSON             |      1,815 |          0 |          1 |      1,816 |
+| d:\nyaymargadarshak\backend\package.json                       | JSON             |         22 |          0 |          1 |         23 |
+| d:\nyaymargadarshak\backend\routes\auth.js                     | JavaScript       |          8 |          0 |          3 |         11 |
+| d:\nyaymargadarshak\backend\routes\chat.js                     | JavaScript       |         11 |          0 |          3 |         14 |
+| d:\nyaymargadarshak\backend\routes\contacts.js                 | JavaScript       |          7 |          0 |          3 |         10 |
+| d:\nyaymargadarshak\backend\routes\lawyers.js                  | JavaScript       |         12 |          0 |          3 |         15 |
+| d:\nyaymargadarshak\backend\routes\legal.js                    | JavaScript       |         10 |          0 |          3 |         13 |
+| d:\nyaymargadarshak\backend\scripts\initDb.js                  | JavaScript       |        135 |          5 |         11 |        151 |
+| d:\nyaymargadarshak\backend\scripts\migrate_chat.js            | JavaScript       |         85 |         29 |         16 |        130 |
+| d:\nyaymargadarshak\backend\server.js                          | JavaScript       |         46 |          8 |         13 |         67 |
+| d:\nyaymargadarshak\backend\services\emailService.js           | JavaScript       |         65 |          3 |         13 |         81 |
+| d:\nyaymargadarshak\backend\services\scraperService.js         | JavaScript       |        143 |          5 |         64 |        212 |
+| d:\nyaymargadarshak\frontend\index.html                        | HTML             |         17 |          0 |          1 |         18 |
+| d:\nyaymargadarshak\frontend\package-lock.json                 | JSON             |      2,999 |          0 |          1 |      3,000 |
+| d:\nyaymargadarshak\frontend\package.json                      | JSON             |         27 |          0 |          1 |         28 |
+| d:\nyaymargadarshak\frontend\postcss.config.js                 | JavaScript       |          3 |          0 |          1 |          4 |
+| d:\nyaymargadarshak\frontend\src\App.jsx                       | JavaScript JSX   |         51 |          1 |          4 |         56 |
+| d:\nyaymargadarshak\frontend\src\components\common\Footer.jsx  | JavaScript JSX   |         53 |          0 |          5 |         58 |
+| d:\nyaymargadarshak\frontend\src\components\common\Navbar.jsx  | JavaScript JSX   |        116 |          5 |         14 |        135 |
+| d:\nyaymargadarshak\frontend\src\components\common\UI.jsx      | JavaScript JSX   |         75 |          0 |         10 |         85 |
+| d:\nyaymargadarshak\frontend\src\hooks\useAuth.jsx             | JavaScript JSX   |         37 |          0 |          8 |         45 |
+| d:\nyaymargadarshak\frontend\src\index.css                     | PostCSS          |         66 |          1 |         15 |         82 |
+| d:\nyaymargadarshak\frontend\src\main.jsx                      | JavaScript JSX   |          9 |          0 |          2 |         11 |
+| d:\nyaymargadarshak\frontend\src\pages\ArticlesPage.jsx        | JavaScript JSX   |         97 |          2 |         10 |        109 |
+| d:\nyaymargadarshak\frontend\src\pages\ChatPage.jsx            | JavaScript JSX   |        160 |          5 |         15 |        180 |
+| d:\nyaymargadarshak\frontend\src\pages\ClientDashboard.jsx     | JavaScript JSX   |        201 |          3 |         15 |        219 |
+| d:\nyaymargadarshak\frontend\src\pages\HomePage.jsx            | JavaScript JSX   |        231 |          9 |         21 |        261 |
+| d:\nyaymargadarshak\frontend\src\pages\LawExplorerPage.jsx     | JavaScript JSX   |        160 |          3 |         14 |        177 |
+| d:\nyaymargadarshak\frontend\src\pages\LawyerDashboard.jsx     | JavaScript JSX   |        382 |          7 |         26 |        415 |
+| d:\nyaymargadarshak\frontend\src\pages\LawyerDirectoryPage.jsx | JavaScript JSX   |        138 |          5 |         16 |        159 |
+| d:\nyaymargadarshak\frontend\src\pages\LawyerProfilePage.jsx   | JavaScript JSX   |        141 |          4 |         17 |        162 |
+| d:\nyaymargadarshak\frontend\src\pages\LegalUpdatesPage.jsx    | JavaScript JSX   |        156 |          3 |         19 |        178 |
+| d:\nyaymargadarshak\frontend\src\pages\LoginPage.jsx           | JavaScript JSX   |         68 |          1 |          8 |         77 |
+| d:\nyaymargadarshak\frontend\src\pages\NotFoundPage.jsx        | JavaScript JSX   |         18 |          0 |          2 |         20 |
+| d:\nyaymargadarshak\frontend\src\pages\RegisterPage.jsx        | JavaScript JSX   |         87 |          1 |          8 |         96 |
+| d:\nyaymargadarshak\frontend\src\utils\api.js                  | JavaScript       |         19 |          0 |          5 |         24 |
+| d:\nyaymargadarshak\frontend\tailwind.config.js                | JavaScript       |         29 |          1 |          1 |         31 |
+| d:\nyaymargadarshak\frontend\vite.config.js                    | JavaScript       |         11 |          0 |          2 |         13 |
+| d:\nyaymargadarshak\package.json                               | JSON             |         17 |          0 |          1 |         18 |
+| d:\nyaymargadarshak\scraper\requirements.txt                   | pip requirements |          4 |          0 |          1 |          5 |
+| d:\nyaymargadarshak\scraper\scheduler.py                       | Python           |         18 |          5 |          7 |         30 |
+| d:\nyaymargadarshak\scraper\scraper.py                         | Python           |        116 |          9 |         34 |        159 |
+| d:\nyaymargadarshak\scraper\sources.py                         | Python           |         33 |          3 |          4 |         40 |
+| d:\nyaymargadarshak\setup.sh                                   | Shell Script     |         52 |          8 |         11 |         71 |
+| Total                                                          |                  |      8,734 |        157 |        616 |      9,507 |
++----------------------------------------------------------------+------------------+------------+------------+------------+------------+

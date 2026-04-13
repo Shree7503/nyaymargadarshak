@@ -1,0 +1,17 @@
+{
+  "name": "nyaymargadarshak",
+  "version": "1.0.0",
+  "description": "LegalTech platform connecting citizens and lawyers",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "setup": "node backend/scripts/initDb.js",
+    "start": "concurrently \"npm run start:backend\" \"npm run dev:frontend\"",
+    "start:backend": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
