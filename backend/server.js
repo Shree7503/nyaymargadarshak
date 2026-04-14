@@ -4,6 +4,8 @@ const cors = require("cors");
 const cron = require("node-cron");
 const fs = require("fs"); // Added for file system operations
 const path = require("path"); // Added for path resolution
+const { exec } = require("child_process");
+const { getDb } = require("./models/db");
 const {
   scrapeAndStore,
   seedFallbackUpdates,
@@ -70,6 +72,21 @@ app.listen(PORT, async () => {
 
   // Seed fallback data on startup
   seedFallbackUpdates();
+
+  const db = getDb();
+  if (db.prepare('SELECT COUNT(*) as c FROM law_sections').get().c === 0) {
+    console.log("⏰ Seeding initial law sections...");
+    exec(`node ${path.join(__dirname, 'scripts', 'seed_direct.js')}`, (err, stdout) => {
+      if (!err) console.log(stdout.trim());
+    });
+  }
+
+  if (db.prepare('SELECT COUNT(*) as c FROM legal_articles').get().c === 0) {
+    console.log("⏰ Seeding initial legal articles...");
+    exec(`node ${path.join(__dirname, 'scripts', 'seed_awareness.js')}`, (err, stdout) => {
+      if (!err) console.log(stdout.trim());
+    });
+  }
 
   // Run scraper on startup
   try {
