@@ -8,13 +8,11 @@ const {
   scrapeAndStore,
   seedFallbackUpdates,
 } = require("./services/scraperService");
-const morgan = require("morgan");
 
 const app = express();
 
 // --- UPGRADED LOGGING SETUP ---
 // 1. Log to the console (useful for local development)
-app.use(morgan("dev"));
 
 // 2. Create a write stream (in append mode) for the log file
 const accessLogStream = fs.createWriteStream(
