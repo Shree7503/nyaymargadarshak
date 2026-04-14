@@ -20,8 +20,7 @@ const accessLogStream = fs.createWriteStream(
   { flags: "a" },
 );
 
-// 3. Log to the file using the standard "combined" format (includes IP, date, user-agent, etc.)
-app.use(morgan("combined", { stream: accessLogStream }));
+
 // ------------------------------
 
 app.use(
