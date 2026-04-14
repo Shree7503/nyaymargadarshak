@@ -39,18 +39,16 @@ const sendContact = async (req, res) => {
     console.error('[sendContact] chat session creation failed:', err.message);
   }
 
-  // Send email notification (non-fatal)
+  // Send email notification (non-fatal, without await to prevent Axios timeouts)
   const client = db.prepare('SELECT name, email FROM users WHERE id = ?').get(req.user.id);
-  try {
-    await emailService.sendInquiryNotification(
-      lawyer.contact_email || lawyer.email,
-      lawyer.name,
-      client.name,
-      message
-    );
-  } catch (err) {
+  emailService.sendInquiryNotification(
+    lawyer.contact_email || lawyer.email,
+    lawyer.name,
+    client.name,
+    message
+  ).catch(err => {
     console.error('[sendContact] Email failed:', err.message);
-  }
+  });
 
   res.status(201).json({ message: 'Inquiry sent successfully', contactId, sessionId });
 };

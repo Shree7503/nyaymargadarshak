@@ -1,22 +1,29 @@
 const nodemailer = require('nodemailer');
 
+let etherealAccount = null;
+let cachedTransporter = null;
+
 const createTransport = async () => {
 
   // DEVELOPMENT MODE → use Ethereal test email
   if (process.env.NODE_ENV === 'development') {
 
-    const testAccount = await nodemailer.createTestAccount();
-
-    return nodemailer.createTransport({
-      host: "smtp.ethereal.email",
-      port: 587,
-      secure: false,
-      auth: {
-        user: testAccount.user,
-        pass: testAccount.pass
+    if (!cachedTransporter) {
+      if (!etherealAccount) {
+        etherealAccount = await nodemailer.createTestAccount();
       }
-    });
+      cachedTransporter = nodemailer.createTransport({
+        host: "smtp.ethereal.email",
+        port: 587,
+        secure: false,
+        auth: {
+          user: etherealAccount.user,
+          pass: etherealAccount.pass
+        }
+      });
+    }
 
+    return cachedTransporter;
   }
 
   // PRODUCTION MODE → use real SMTP
